@@ -5,5 +5,4 @@ class Solution:
         for i in range(1,len(sentences)):
             if len(sentences[i].split(" ")) > res: 
                 res = len(sentences[i].split(" "))
-                print(res)
         return res
