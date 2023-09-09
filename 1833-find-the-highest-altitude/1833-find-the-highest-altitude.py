@@ -4,7 +4,6 @@ class Solution:
         total = res
         for g in gain[1:]: 
             total += g
-            print(total)
             if total > res:
                 res = total
         if (res > 0): return res
